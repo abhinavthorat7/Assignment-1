@@ -1,0 +1,84 @@
+Script started on 2022-03-24 13:09:06+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ exitgrep -n -w -v "the" haiku.txt[8Pw The[C[C[C[C[C[C[C[C[C[C[8@n -w -v "the"[C[C[C[C[C[C[C[C[C[Cexit[K[Kexitgrep -n -w -v "the" haiku.txt[8Pw The[C[C[C[C[C[C[C[C[C[C[8Pcat[C[C[C[C[C[C[C[C[C[Cd ../exercise-data/writingbash do-stats.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcd ../../north-pacific-gyre/bash do-stats.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcd ../exercise-data/writing[14Pat haiku.txt[8@grep -w The[C[C[C[C[C[C[C[C[C[C[8@n -w -v "the"[C[C[C[C[C[C[C[C[C[Cexit[K[Kgit config --global user.name "John Doe"[K[K[K[K[K[K[K[K[KAbhinav THor[K[K[Khorat"
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ git congi[K[Kfig --global user.emaik[Kl abhinav.thorat@tigeranalytics.com
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ git --version
+git version 2.25.1
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ apt-get install git
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ git config --global init.defaultBranch main
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ git config --list
+[?1h=user.name=Abhinav Thorat[m
+user.email=abhinav.thorat@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ pwd
+/home/abhinav_thorat
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ ls 
+git_session  my_unix_session  [0m[01;34mshell-lesson-data[0m
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ mkr[Kdor[K[Kir Gut[K[Kitg[Khub_practice
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ ls
+[0m[01;34mGithub_practice[0m  git_session  my_unix_session  [01;34mshell-lesson-data[0m
+]0;abhinav_thorat@TIGER02247: ~[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~[00m$ cd Github_practice/[K
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git init
+Initialized empty Git repository in /home/abhinav_thorat/Github_practice/.git/
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ ls
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ cat .git
+cat: .git: Is a directory
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git clone https://github.com/libgit2/libgit
+Cloning into 'libgit'...
+Username for 'https://github.com': ABh  bhinav Thoray y t
+Password for 'https://Abhinav Thorat@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit/'
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ cd [K[K[Kgit stati[Kus
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$  echo 'My Project' > README
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git statusclone https://github.com/libgit2/libgitstatus[K
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git add README
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git add README[4Pstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ rm Re[KE[KEADME.MD
+rm: cannot remove 'README.MD': No such file or directory
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ rm README.MD[K[K[K
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ rm README.MD[2Pgit status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+
+]0;abhinav_thorat@TIGER02247: ~/Github_practice[01;32mabhinav_thorat@TIGER02247[00m:[01;34m~/Github_practice[00m$ git status[1Prm README.MD[2Pgit statusadd README[4Pstatusclone https://github.com/libgit2/libgitcat .git[Kls[Kgit add LICENSE[4P*.c[3Pinitcd Github_practicels[Kmkdir Github_practicels [Kpwdgit config --listglobal init.defaultBranch main[24Papt-get install git[6Pgit --versionconfig --global user.email abhinav.thorat@tigeranalytics.com[18Pname "Abhinav Thorat"[Cemail abhinav.thorat@tigeranalytics.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C--version[Kapt-get install gitgit config --global init.defaultBranch mainlist[Kpwd[Kls mkdir Github_practicels[Kcd Github_practice[10Pgit initadd *.cLICENSEls[Kcat .gitgit clone https://github.com/libgit2/libgitstatus[Kadd README[4Pstatusrm README.MD[Kgit status[Kc[Kexit
+exit
+
+Script done on 2022-03-24 18:14:35+05:30 [COMMAND_EXIT_CODE="0"]
